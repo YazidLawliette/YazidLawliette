@@ -67,7 +67,7 @@
             </button>
         </div>
         <div class="hidden md:flex space-x-6">
-            <a href="./index.php" class="text-gray-600 hover:text-gray-900">Work</a>
+            <a href="./index.html" class="text-gray-600 hover:text-gray-900">Work</a>
             <a href="./me.php" class="text-gray-600 hover:text-gray-900">About</a>
             <a href="https://idn.sch.id/" target="_blank" class="text-gray-600 hover:text-gray-900">School</a>
             <a href="./contact.php" class="text-gray-600 hover:text-gray-900">Contact</a>
@@ -85,7 +85,7 @@
             </button>
         </div>
         <nav class="px-8 py-4">
-            <a href="./index.php" class="block text-gray-600 hover:text-gray-900 py-2">Work</a>
+            <a href="./index.html" class="block text-gray-600 hover:text-gray-900 py-2">Work</a>
             <a href="./me.php" class="block text-gray-600 hover:text-gray-900 py-2">About</a>
             <a href="https://idn.sch.id/" target="_blank" class="block text-gray-600 hover:text-gray-900 py-2">School</a>
             <a href="./contact.php" class="block text-gray-600 hover:text-gray-900 py-2">Contact</a>
