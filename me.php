@@ -13,6 +13,28 @@
         .transform {
             transition: transform 0.3s ease-in-out;
         }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #F5F7F8;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #A0AEC0;
+            border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #718096;
+        }
+
+        html {
+            scrollbar-width: thin;
+            scrollbar-color: #A0AEC0 #F5F7F8;
+        }
     </style>
     <script defer>
         function toggleMenu() {
@@ -20,7 +42,7 @@
         }
     </script>
 </head>
-<body class="bg-white font-poppins">
+<body class="bg-[#F5F7F8] text-gray-900 font-poppins antialiased">
     <!-- Navigation Bar -->
     <nav class="flex justify-between items-center bg-white px-8 py-4 md:px-52 fixed w-full">
         <div class="text-2xl font-bold"><a href="./me.html">la.</a></div>
@@ -33,10 +55,11 @@
         </div>
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-6">
-            <a href="./index.html" class="text-gray-600 hover:text-gray-900">Work</a>
-            <a href="./me.html" class="text-gray-600 hover:text-gray-900">About</a>
+            <a href="./index.php" class="text-gray-600 hover:text-gray-900">Work</a>
+            <a href="./me.php" class="text-gray-600 hover:text-gray-900">About</a>
             <a href="https://idn.sch.id/" target="_blank" class="text-gray-600 hover:text-gray-900">School</a>
-            <a href="./contact.html" class="text-gray-600 hover:text-gray-900">Contact</a>
+            <a href="./contact.php" class="text-gray-600 hover:text-gray-900">Contact</a>
+            <a href="./hobby.php" class="text-gray-600 hover:text-gray-900">Hobby</a>
         </div>
     </nav>
 
@@ -51,10 +74,11 @@
             </button>
         </div>
         <nav class="px-8 py-4">
-            <a href="./index.html" class="block text-gray-600 hover:text-gray-900 py-2">Work</a>
-            <a href="./me.html" class="block text-gray-600 hover:text-gray-900 py-2">About</a>
+            <a href="./index.php" class="block text-gray-600 hover:text-gray-900 py-2">Work</a>
+            <a href="./me.php" class="block text-gray-600 hover:text-gray-900 py-2">About</a>
             <a href="https://idn.sch.id/" target="_blank" class="block text-gray-600 hover:text-gray-900 py-2">School</a>
-            <a href="./contact.html" class="block text-gray-600 hover:text-gray-900 py-2">Contact</a>
+            <a href="./contact.php" class="block text-gray-600 hover:text-gray-900 py-2">Contact</a>
+            <a href="./hobby.php" class="block text-gray-600 hover:text-gray-900 py-2">Hobby</a>
         </nav>
     </div>
 
@@ -87,7 +111,7 @@
                 </div>
                 <div>
                     <h2 class="text-lg font-semibold">Main Skills</h2>
-                    <p class="text-gray-600">VScode,( TailwindCSS, PHP, Laravel, NextJS. )
+                    <p class="text-gray-600">VScode,(JS, TailwindCSS, PHP, Laravel, NextJS. )
                     <br>
                     Styling, Retopology, Animation, Web Design</p>
                 </div>
